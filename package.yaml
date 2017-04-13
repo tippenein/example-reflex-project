@@ -33,6 +33,7 @@ default-extensions:
 dependencies:
   - base
   - classy-prelude
+  - ghcjs-c3
   - reflex-dom
 
 ghc-options:

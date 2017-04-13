@@ -22,6 +22,7 @@ library
   build-depends:
       base
     , classy-prelude
+    , ghcjs-c3
     , reflex-dom
   exposed-modules:
       App
@@ -36,6 +37,7 @@ executable myawesomeclient-exe
   build-depends:
       base
     , classy-prelude
+    , ghcjs-c3
     , reflex-dom
     , myawesomeclient
   default-language: Haskell2010
